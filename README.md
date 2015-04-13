@@ -30,8 +30,8 @@
 
 *  Following is a list of all pre-defines, including special forms and built-in functions. Built-in functions are not written in "library.scm" because they either manipulate my ADTs or require calling functions of outer interpreter.
 
-## Special Forms
+### Special Forms
 quote, begin, if, and, or, cond, lambda, define, let, let*, letrec, with-handlers
 
-##built-in functions
+### Built-in functions
 exit, void, cons, car, cdr, mcons, mcar, mcdr, set-mcar!, set-mcdr!, apply, raise, +, -, *, /, modulo, floor, =, <, >, eq?, equal?, null?, pair?, false?, number?, real?, char?, string?, regexp?, eof-object?, regexp, regexp-match, list->string, string-length, string->number, string->list, number->string, string-append, display, displayln, newline, load, read, read-char, peek-char, read-line, flush-output, current-input-port, open-input-file, close-input-port
